@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @MajikTom
-- 👀 I’m interested in Music, Hockey, Oil and Gas, Telecommunications and playing PVE in PVP games...
-- 🌱 I’m currently learning about the human condition
-- 💞️ I’m looking to collaborate on Music
-- 📫 How to reach me: just be cool...
+- 👀 I’m interested in Music, Hockey, Oil and Gas, Telecommunications and games...
+- 🌱 I’m currently learning about AI
+- 💞️ I’m looking to collaborate on Agents
+- 📫 How to reach me: 
 
 <!---
 MajikTom/MajikTom is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
