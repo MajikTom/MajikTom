@@ -1,0 +1,38 @@
+{
+  "description": "CLI destinations GPT/Codex can exec from Git Bash on this PC.",
+  "probe": "./cli-destinations/probe-path.sh --json",
+  "destinations": [
+    {
+      "id": "codex",
+      "commands": ["codex"],
+      "notes": "Already on PATH in the reported PC setup.",
+      "invoke": ["codex", "exec", "--", "${prompt}"]
+    },
+    {
+      "id": "cursor-agent",
+      "commands": ["agent", "cursor-agent", "agent.cmd"],
+      "wrapper": "./cli-destinations/cursor-destination.sh",
+      "notes": "Windows installer drops agent.cmd; Git Bash will not find `agent` until cli-destinations/bin is on PATH.",
+      "invoke": [
+        "./cli-destinations/cursor-destination.sh",
+        "--force",
+        "--",
+        "${prompt}"
+      ],
+      "ask": [
+        "./cli-destinations/cursor-destination.sh",
+        "--ask",
+        "--",
+        "${prompt}"
+      ],
+      "auth": "agent login, or CURSOR_API_KEY from https://cursor.com/dashboard/settings/api-keys"
+    },
+    {
+      "id": "claude",
+      "commands": ["claude", "claude.exe", "claude.cmd"],
+      "notes": "Not required for the Cursor destination. Install from PowerShell if GPT should also route here.",
+      "invoke": ["claude", "-p", "${prompt}"],
+      "install": "irm https://claude.ai/install.ps1 | iex"
+    }
+  ]
+}
