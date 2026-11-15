@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# CURSOR_GIT_BASH_SHIM=1
+# Git Bash PATH shim. The Windows Cursor installer only drops agent.cmd, which
+# bash will not find as `agent`. This script is the extensionless name GPT and
+# Git Bash look up on PATH.
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+# shellcheck source=../lib.sh
+source "$ROOT/lib.sh"
+cli_exec_agent "$@"
