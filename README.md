@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @MajikTom
 - 👀 I’m interested in Music, Hockey, Oil and Gas, Telecommunications and games...
-- 🌱 I’m currently learning about AI
-- 💞️ I’m looking to collaborate on Agents
+- 🌱 I’m currently building AI governed frameworks
 - 📫 How to reach me: 
 
 <!---
