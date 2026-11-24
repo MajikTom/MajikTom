@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MajikTom
 - 👀 I’m interested in Music, Hockey, Oil and Gas, Telecommunications and games...
-- 🌱 I’m currently building AI governed frameworks
+- 🌱 I’m currently Pioneering fully governed AI delivery frameworks
 - 📫 How to reach me: 
 
 <!---
