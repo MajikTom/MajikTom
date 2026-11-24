@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# CURSOR_GIT_BASH_SHIM=1
+# Legacy name for the Cursor CLI. Same resolver as bin/agent.
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+# shellcheck source=../lib.sh
+source "$ROOT/lib.sh"
+cli_exec_agent "$@"
