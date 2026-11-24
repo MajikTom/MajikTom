@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @MajikTom
 - 👀 I’m interested in Music, Oil and Gas, Telecomm and games...
 - 🌱 I’m currently Pioneering fully governed AI delivery frameworks
-- 📫 How to reach me: 
+- 📫 How to reach me: ping me...
 
 <!---
 MajikTom/MajikTom is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
